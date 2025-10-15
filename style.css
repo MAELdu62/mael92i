@@ -1,0 +1,111 @@
+@import url(mael.html);
+
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
+  font-family: 'Consolas', 'Courier New', monospace;
+  margin: 0; 
+  padding: 20px;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #0ff;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: normal;
+  color: #66f;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+aside.note {
+  background: #111f33;
+  border-left: 5px solid #0ff;
+  padding: 15px 20px;
+  margin: 25px auto;
+  max-width: 800px;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px #0ff44a55;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #0ff;
+  border-bottom: 2px solid #0ff;
+  padding-bottom: 8px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  color: #66f;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #0ff;
+  text-decoration: none;
+  border-bottom: 1px dotted #0ff;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #66f;
+  border-bottom: 1px solid #66f;
+}
+
+.image-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.image-row img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #0ff9;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #0ff;
+}
+
+/* Video de tata */
+video, iframe {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 30px #0ff;
+  background: #000;
+}
